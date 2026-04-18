@@ -6,7 +6,7 @@
 
 const portfolioData = {
   settings: {
-    contactEmail: "harsh@example.com",
+    contactEmail: "hk6396420@gmail.com",
     socialLinks: [
       { platform: "github", name: "GitHub", url: "https://github.com/repos?q=owner%3A%40me" },
       { platform: "linkedin", name: "LinkedIn", url: "https://linkedin.com/in/yourusername" },
@@ -14,18 +14,18 @@ const portfolioData = {
     ]
   },
   stats: [
-    { label: "Projects Delivered", value: 50, suffix: "" },
+    { label: "Projects Delivered", value: 10+, suffix: "" },
     { label: "Client Satisfaction", value: 98, suffix: "%" },
-    { label: "System Uptime", value: 99.9, suffix: "%" },
-    { label: "AI Agents Running", value: 24, suffix: "/7" }
+    
+   
   ],
   skills: [
     {
       id: "n8n-ai",
       title: "n8n & AI Agents",
       icon: "🤖",
-      description: "Autonomous workflows that connect your entire stack. Smart agents that learn, adapt, and execute.",
-      tech: ["n8n", "LangChain", "OpenAI", "Webhooks"],
+      description: "Custom AI Agents & n8n Workflows. I build autonomous systems that handle lead generation, data scraping, and automated email replies using n8n and Claude/Ollama",
+      tech: ["n8n", "Ollama", "Webhooks","api integration"],
       featured: true
     },
     {
@@ -36,14 +36,7 @@ const portfolioData = {
       tech: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
       featured: false
     },
-    {
-      id: "backend",
-      title: "Backend",
-      icon: "🔧",
-      description: "Scalable APIs and microservices. Node.js, Python, and Go with clean architecture.",
-      tech: ["Node.js", "Python", "PostgreSQL", "Redis"],
-      featured: false
-    },
+    
     {
       id: "automation",
       title: "Process Automation",
