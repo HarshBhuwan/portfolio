@@ -90,18 +90,6 @@ const portfolioData = {
       previewUrl: "https://example.com/dashboard-preview",
       featured: true,
       order: 3
-    },
-    {
-      id: "ecommerce-automation",
-      title: "E-commerce Automation Suite",
-      badge: "Automation",
-      icon: "⚡",
-      description: "Complete n8n workflow automation for order processing, inventory sync, and customer notifications across multiple platforms.",
-      tech: ["n8n", "Shopify API", "Webhooks", "Slack"],
-      url: "https://example.com/automation",
-      previewUrl: "",
-      featured: false,
-      order: 4
     }
   ]
 };
