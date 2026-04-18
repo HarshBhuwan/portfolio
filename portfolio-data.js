@@ -1,4 +1,4 @@
-/* ==========================================================================
+ /* ==========================================================================
    HARSH Portfolio - Central Data Structure
    This file contains all site content in a structured JSON object.
    You can edit this file directly or use the Admin Panel to update it.
@@ -6,26 +6,26 @@
 
 const portfolioData = {
   settings: {
-    contactEmail: "hk6396420@gmail.com",
+    contactEmail: "harsh@example.com",
     socialLinks: [
-      { platform: "github", name: "GitHub", url: "https://github.com/repos?q=owner%3A%40me" },
+      { platform: "github", name: "GitHub", url: "https://github.com/yourusername" },
       { platform: "linkedin", name: "LinkedIn", url: "https://linkedin.com/in/yourusername" },
       { platform: "twitter", name: "Twitter", url: "https://twitter.com/yourusername" }
     ]
   },
   stats: [
-    { label: "Projects Delivered", value: 10+, suffix: "" },
+    { label: "Projects Delivered", value: 10, suffix: "+" },
     { label: "Client Satisfaction", value: 98, suffix: "%" },
-    
-   
+    { label: "System Uptime", value: 99.9, suffix: "%" },
+    { label: "AI Agents Running", value: 24, suffix: "24/7" }
   ],
   skills: [
     {
       id: "n8n-ai",
       title: "n8n & AI Agents",
       icon: "🤖",
-      description: "Custom AI Agents & n8n Workflows. I build autonomous systems that handle lead generation, data scraping, and automated email replies using n8n and Claude/Ollama",
-      tech: ["n8n", "Ollama", "Webhooks","api integration"],
+      description: "Autonomous workflows that connect your entire stack. Smart agents that learn, adapt, and execute.",
+      tech: ["n8n", "LangChain", "OpenAI", "Webhooks"],
       featured: true
     },
     {
@@ -36,7 +36,7 @@ const portfolioData = {
       tech: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
       featured: false
     },
-    
+     
     {
       id: "automation",
       title: "Process Automation",
@@ -45,14 +45,7 @@ const portfolioData = {
       tech: ["Zapier", "Make.com", "RPA", "Puppeteer"],
       featured: false
     },
-    {
-      id: "cloud-devops",
-      title: "Cloud & DevOps",
-      icon: "☁️",
-      description: "AWS, Docker, and CI/CD pipelines. Infrastructure that's reliable and cost-effective.",
-      tech: ["AWS", "Docker", "GitHub Actions", "Terraform"],
-      featured: false
-    }
+     
   ],
   projects: [
     {
@@ -91,5 +84,6 @@ const portfolioData = {
       featured: true,
       order: 3
     }
+   
   ]
 };
