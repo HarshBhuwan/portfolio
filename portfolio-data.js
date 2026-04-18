@@ -8,7 +8,7 @@ const portfolioData = {
   settings: {
     contactEmail: "harsh@example.com",
     socialLinks: [
-      { platform: "github", name: "GitHub", url: "https://github.com/yourusername" },
+      { platform: "github", name: "GitHub", url: "https://github.com/repos?q=owner%3A%40me" },
       { platform: "linkedin", name: "LinkedIn", url: "https://linkedin.com/in/yourusername" },
       { platform: "twitter", name: "Twitter", url: "https://twitter.com/yourusername" }
     ]
